@@ -1,0 +1,2 @@
+hailo-platform>=4.0.0
+websockets>=12.0

@@ -1,0 +1,8 @@
+node_modules/
+models/
+*.hef
+*.pyc
+__pycache__/
+.env
+.DS_Store
+*.log

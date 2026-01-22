@@ -1,0 +1,27 @@
+{
+  "server": {
+    "host": "127.0.0.1",
+    "port": 11434
+  },
+  "python_service": {
+    "host": "127.0.0.1",
+    "ws_port": 8765
+  },
+  "hailo": {
+    "models_dir": "./models",
+    "default_model": "llama3.2",
+    "models": {
+      "llama3.2:latest": {
+        "hef_path": "./models/llama3.2.hef",
+        "family": "llama",
+        "parameter_size": "3.2B",
+        "format": "hef"
+      }
+    }
+  },
+  "generation": {
+    "default_temperature": 0.8,
+    "default_max_tokens": 2048,
+    "default_keep_alive": "5m"
+  }
+}

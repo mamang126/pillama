@@ -1,0 +1,29 @@
+{
+  "name": "pillama",
+  "version": "1.0.0",
+  "description": "Ollama-compatible API server using hailo-platform Python module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "python-service": "python python_service/hailo_service.py",
+    "setup": "npm install && pip install -r requirements.txt"
+  },
+  "keywords": [
+    "ollama",
+    "hailo",
+    "llm",
+    "ai",
+    "api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.16.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
